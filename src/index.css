@@ -1,0 +1,47 @@
+:root{
+  --primary: #577afab3;
+
+  --dark: #020010d2;
+  
+  --background: #08152c;
+  
+  --light: #f6f6f6;
+  --gray: #707070;
+}
+
+*{
+  margin: 0;
+  
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+body, html{
+  background-color: var(--dark);
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.decorator{
+  display: block;
+  height: 200px;
+  width: 200px;
+
+  border-radius: 100%;
+
+  position: absolute;
+  
+  background-color: var(--primary);
+}
+
+
+
+
+.blur-bg{
+  box-shadow: 0 0 5px var(--light);
+  background-color: var(--dark);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}

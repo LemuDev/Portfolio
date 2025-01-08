@@ -1,0 +1,35 @@
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.skills-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.skills-title{
+  display: block;
+  font-size: 5rem;
+  color: var(--light);
+
+  margin-bottom: 1rem;
+}
+
+.grid-skills{
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
+
+}
+
